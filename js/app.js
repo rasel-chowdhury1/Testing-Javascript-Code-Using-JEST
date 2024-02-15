@@ -12,6 +12,8 @@ const init = () => {
   newPostButton.addEventListener("click", addPost);
 };
 
+console.log('connected successfully')
+
 const addPost = async () => {
   // get user input fields
   const { useridInput, titleInput, articleInput } = getUserInputs();
